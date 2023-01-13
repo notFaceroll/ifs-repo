@@ -6,7 +6,7 @@ Exemplos mais comuns de processos de software
 - [Modelo Cascata](#modelo-cascata)
 - [Engenharia de software baseada em componentes](#engenharia-de-software-baseada-em-componentes)
 - [Modelo Incremental](#modelo-incremental)
-- modelo evolucionário
+- [Modelo Evolucionário](#modelo-evolucionário)
 - processo unificado
 
 
@@ -37,7 +37,7 @@ Segundo o autor, cada estágio é sujeito a uma aprovação e o estágio seguint
 Ressaltando, o modelo cascata é preferencialmente usado quando todos os requisitos são bem compreendidos e dificilmente sofrerão alteração durante o seu desenvolvimento.
 
 ### Engenharia de software baseada em componentes
-
+lorem ipsum
 ### Modelo Incremental
 
 Sendo uma das abordagens mais utilizadas, este modelo consiste na exposição de uma pequena versão funcional do projeto aos usuários e a realização de tarefas simultâneas ao passo em que o feedback é recebido, assim criando novas versões até que um software estável e adequado seja desenvolvido. Pode-se afirmar que o foco deste modelo é voltado para a entrega de um serviço ou produto ao cliente que já possua capacidade de atendê-lo, entregando a cada etapa ou nova versão mais recursos adicionais, até que se atinja o produto final.
@@ -48,3 +48,49 @@ O desenvolvimento incremental tem três vantagens importantes quando comparado a
 - É mais fácil obter feedback dos clientes sobre o desenvolvimento que foi feito;
 - É possível obter a entrega e implementação rápida de um software útil ao cliente, mesmo se toda funcionalidade não for incluída.
 
+### Modelo Evolucionário
+
+É esperado que softwares evoluam e sejam atualizados, assim como qualquer sistema complexo. Ao passo em que o projeto avança, novas especificações ou necessidades irão surgir e regras de negócio podem mudar tornando certas abstrações do projeto inúteis ou incompletas. 
+
+Além disso, fatores externos influentes também interferem no projeto, alterando por exemplo, prazos e metas. Para atender situações dessa natureza, softwares com conjuntos de funcionalidades básicas são criados para atender especificações imediatas mas intencionalmente projetados para que evoluam ao longo do tempo.
+
+Entre os processos evolucionários mais conhecidos, Pressman ressalta a **Prototipação** e o **Modelo Espiral**.
+
+O *paradigma da prototipação* pode ser a melhor escolha quando são especificados muitos objetivos do projeto, porém pouco sobre os requisitos, recursos e funções de implementação, ou seja, como ele deverá ser desenvolvido. Sem esses detalhes, a primeira etapa pode ser vista justamente como a criação de um protótipo, que poderá evoluir ou ser descartado, de acordo com as necessidades e requerimentos.
+
+No início do ciclo, temos a *comunicação*. Reuniões, feedbacks, que levem ao esboço das ideias, esquemas, levantamento de necessidades e afins, justamente para ter uma visão ampla do serviço ou produto e na modelagem do *projeto rápido*.
+
+Este projeto leva na construção do protótipo e consiste na representação dos aspectos do software que serão visíveis ao usuário final. Servindo como primeiro sistema, ele atua como um mecanismo para identificar os requisitos do software. Porém é recomendado que, quando esse software tenha cumprido o seu papel, ele seja descartado, já que, como primeiro protótipo, ele foi feito para isso.
+
+Como afirma Pressman, embora possam ocorrer problemas, este método pode ser efetivo para a engenharia de software. O segredo é definir as regras do jogo logo no início, ou seja, todos os envolvidos terão ciência de que o protótipo foi construído com o propósito de definir os requisitos e portanto, será descartado.
+
+**imagem do paradigma**
+
+Barry Boehm, criador do modelo espiral, o descreve da seguinte forma:
+
+> O modelo espiral de desenvolvimento é um gerador de modelos de processos dirigidos a riscos e é utilizado para guiar a engenharia de sistemas intensivos de software, que ocorre de forma concorrente e tem múltiplos envolvidos.
+
+Este modelo é considerado uma melhoria do **modelo incremental** e possui esse nome por conta da sua abstração, onde uma volta completa no espiral percorre todas as fases do processo do desenvolvimento do software. As repetições deverão ser realizadas quantas vezes sejam necessárias até que o sistema completo seja entregue.
+
+Segundo Sommerville(2011), o modelo em espiral "combina prevenção e tolerância a mudanças, assume que mudanças são um resultado de riscos de projeto e inclui atividades explícitas de gerenciamento de riscos para sua redução".
+
+PRESSMAN (2011) também diz que o modelo é "uma abordagem realista so desenvolvimento de sistemas e software de grande porte ... usando a prototipagem como mecanismo de redução de riscos".
+
+A divisão dos setores do modelo espiral pode ser dada em quatro fases:
+- Definição dos objetivos;
+- Avaliação e redução dos riscos;
+- Implementação e validação;
+- Planejamento e especificação.
+
+**imagem do modelo espiral**
+
+Apesar de inúmeras vantagens desse método, vale a ressalva:
+- Se um risco importante não for descoberto e gerenciado corretamente, fatalmente ocorrerão problemas;
+- A avaliação de riscos exige um profissional experiente;
+- Aplica-se melhor em sistemas de grande porte e;
+- Segundo PRESSMAN (2011), pode ser difícil convencer os clientes que o processo de evolução é controlável, devido a exigência pela competência na avaliação dos riscos.
+
+Referências Bibliográficas
+
+PRESSMAN, Roger S. Engenharia de Software - Uma abordagem profissional, Sétima Edição. Editora MCGrawHill: Porto Alegre, 2011
+SOMMERVILLE, Ian Engenharia de Software, Nona Edição. Editora Pearson Prentice Hall: São Paulo, 2011
