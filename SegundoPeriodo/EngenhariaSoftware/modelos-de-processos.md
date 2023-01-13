@@ -4,8 +4,8 @@
 
 Exemplos mais comuns de processos de software
 - [Modelo Cascata](#modelo-cascata)
-- engenharia de software baseada em componentes
-- modelo incremental
+- [Engenharia de software baseada em componentes](#engenharia-de-software-baseada-em-componentes)
+- [Modelo Incremental](#modelo-incremental)
 - modelo evolucionário
 - processo unificado
 
@@ -35,3 +35,16 @@ Já na análise de Sommerville, o modelo em cascata é abordado com os seguintes
 Segundo o autor, cada estágio é sujeito a uma aprovação e o estágio seguinte não deve ser iniciado até que a fase anterior seja concluída. Cada estágio dessa abordagem é  alimentado com informações dos outros estágios, de modo que problemas são identificados em fases distintas e analisados corretamente. O modelo não se restringe somente à linearidade, mas o feedback se torna essencial.
 
 Ressaltando, o modelo cascata é preferencialmente usado quando todos os requisitos são bem compreendidos e dificilmente sofrerão alteração durante o seu desenvolvimento.
+
+### Engenharia de software baseada em componentes
+
+### Modelo Incremental
+
+Sendo uma das abordagens mais utilizadas, este modelo consiste na exposição de uma pequena versão funcional do projeto aos usuários e a realização de tarefas simultâneas ao passo em que o feedback é recebido, assim criando novas versões até que um software estável e adequado seja desenvolvido. Pode-se afirmar que o foco deste modelo é voltado para a entrega de um serviço ou produto ao cliente que já possua capacidade de atendê-lo, entregando a cada etapa ou nova versão mais recursos adicionais, até que se atinja o produto final.
+
+O desenvolvimento incremental tem três vantagens importantes quando comparado ao modelo cascata, segundo Sommerville:
+
+- Custo de acomodar as mudanças nos requisitos do cliente é reduzido;
+- É mais fácil obter feedback dos clientes sobre o desenvolvimento que foi feito;
+- É possível obter a entrega e implementação rápida de um software útil ao cliente, mesmo se toda funcionalidade não for incluída.
+
