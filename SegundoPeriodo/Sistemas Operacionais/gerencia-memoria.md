@@ -63,14 +63,3 @@ O sistema operacional possui uma lista de áreas livres, com o endereço e taman
 > - Não residentes (outswapped): Estão na área de swap.
 A escolha do processo a ser retirado deve priorizar o processo que tem menos chances de ser escalonado, geralmente um processo em estado de espera.
 O sistema deve oferecer **realocação dinâmica**.
-
-
-
-## Memória Virtual 💻
-
-Algoritmos de Substituição de Páginas
-Selecionar os frames que tenham as menores chances de serem referenciados em um futuro próximo.
-- Aleatório - não utiliza critério algum de seleção.
-- FIFO (First-In-First-Out) - seleciona a página que está há mais tempo na memória principal.
-- LFU (Least-Frequently-Used) - seleciona a página menos referenciada, ou seja, o frame menos utilizado.
-- LRU (Least-Recently-Used) - seleciona a página na memória principal que está há mais tempo sem ser referenciada.
