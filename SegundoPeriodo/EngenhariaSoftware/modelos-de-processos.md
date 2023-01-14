@@ -37,7 +37,23 @@ Segundo o autor, cada estágio é sujeito a uma aprovação e o estágio seguint
 Ressaltando, o modelo cascata é preferencialmente usado quando todos os requisitos são bem compreendidos e dificilmente sofrerão alteração durante o seu desenvolvimento.
 
 ### Engenharia de software baseada em componentes
-lorem ipsum
+
+Similarmente chamado de componentização ou modularização, o conceito DRY (Don't Repeat Yourself) pode ser identificado e aplicado a praticamente todo software em desenvolvimento (ou já completado) onde há algum tipo de reúso. Esse reúso ocorre independentemente do processo de desenvolvimento que se use. A principal ideia é a adaptação das ferramentas (funções ou até mesmo classes inteiras) para reutilização em várias partes do projeto (e muitas vezes em até outros projetos). Como afirma Sommerville, "abordagens orientadas a reúso dependem de uma ampla base de componentes reusáveis de software e de um framework de integração para a composição desses".
+Esses componentes muitas vezes podem ser sistemas completos, os **COTS** (Commercial Off-The-Shelf) ou conhecido como *Comercial de prateleira*, desenvolvidos por outras empresas ou grupos de empresas que os oferecem como produtos ou serviços, capazes de fornecer uma funcionalidade específica.
+
+De qualquer modo, esse modelo de processo não difere tanto dos outros em vários aspectos: a equipe define requisitos, traça metas e etc. Quando o projeto ou a arquitetura do projeto é elaborada, é onde as coisas diferem. No lugar de planos extensos e detalhados, a equipe deve examinar os requisitos e determinar a construção. Perguntas do tipo "há componentes disponíveis ou frameworks elaborados para implementar os requisitos?" ou "os COTS obtidos são compatíveis dentro da arquitetura do software a ser construído?" irão direcionar o projeto o caminho correto.
+
+A engenharia baseada em componentes pode ter duas perspectivas:
+- Criação de novos componentes, passando por especificação, implementação e documentação;
+- Desenvolvimento de sistemas completos utilizando um conjunto de componentes interligados.
+
+Pode-se destacar cinco estágios nesse processo todo:
+- **Seleção** de componentes, que consiste na identificação de componentes candidatos à reúso;
+- **Qualificação**, analisando a compatibilidade do componente no sistema;
+- **Adaptação**, visto que dificilmente um componente se adaptará por completa em um sistema;
+- **Composição** que vai fazer a integração o componente no sistema e;
+- **Atualização**, visto que com a evolução dos sistemas, versões antigas podem ficar obsoletas ou em desuso rapidamente.
+
 ### Modelo Incremental
 
 Sendo uma das abordagens mais utilizadas, este modelo consiste na exposição de uma pequena versão funcional do projeto aos usuários e a realização de tarefas simultâneas ao passo em que o feedback é recebido, assim criando novas versões até que um software estável e adequado seja desenvolvido. Pode-se afirmar que o foco deste modelo é voltado para a entrega de um serviço ou produto ao cliente que já possua capacidade de atendê-lo, entregando a cada etapa ou nova versão mais recursos adicionais, até que se atinja o produto final.
