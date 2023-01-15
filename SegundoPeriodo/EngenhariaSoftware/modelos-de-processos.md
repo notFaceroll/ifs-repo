@@ -7,7 +7,7 @@ Exemplos mais comuns de processos de software
 - [Engenharia de software baseada em componentes](#engenharia-de-software-baseada-em-componentes)
 - [Modelo Incremental](#modelo-incremental)
 - [Modelo Evolucionário](#modelo-evolucionário)
-- processo unificado
+- [Processo Unificado](#processo-unificado)
 
 
 ### Modelo cascata
@@ -106,7 +106,29 @@ Apesar de inúmeras vantagens desse método, vale a ressalva:
 - Aplica-se melhor em sistemas de grande porte e;
 - Segundo PRESSMAN (2011), pode ser difícil convencer os clientes que o processo de evolução é controlável, devido a exigência pela competência na avaliação dos riscos.
 
+
+## Processo Unificado
+
+A definição "conjunto de atividades para transformar requisitos de usuário em um sistema de software" pode ser meio branda, e literalmente conceituar quase todos os modelos de processos de desenvolvimento de software, porém é basicamente o que descreve o PU. Ele é baseado em componentes, combinando os ciclos *incremental* e *iterativo*, e ressalta o importante papel da arquitetura de software, concentrando os esforços nos ideais corretos. 
+
+No início da década de 90, James Rumbaugh, Ivar Jacobson e Grady Booch, começaram a trabalhar na ideia da combinação das melhores características dos seus métodos individuais, adotando características de outros métodos propostos por outros especialistas. Desta junção de ideias, originou-se a UML, que posteriormente tornou-se um padrão em termos de desenvolvimento de software orientado a objetos.
+
+Como todo modelo de processo, o PU segue um conjunto de atividades ou fases, praticamente genéricas e comuns. Pressman (2011) as descreve como:
+
+- ***Concepção***, que envolve a comunicação com o cliente e a parte de planejamento;
+- A ***elaboração*** refina e expande os casos de uso e amplia a representação da arquitetura;
+- A fase de ***contrução*** é praticamente a mesma definida para o processo de software genérico. Desenvolvimento de componentes, implementação do código fonte, testes gerais e unitários.
+- ***Transição*** é onde o software é entregue aos usuários finais para testes beta e feedback e a documentação é elaborada juntamente com o versionamento. Na conclusão dessa fase, o incremento torna-se uma versão de software utilizável.
+- ***Produção*** é a fase que também coincide com a atividade de emprego do processo genérico. Nesta fase o software é monitorado, avaliado e reportado através de relatórios com o propósito de refinar ou atualizar.
+
+É importante destacar que essas fases não são exatamente lineares, elas podem ser concorrentes e escalonadas, o fluxo de trabalho da engenharia de software é distribuído ao longo de todas as fases do PU.
+
+**imagem do PU**
+
+
 Referências Bibliográficas
 
 PRESSMAN, Roger S. Engenharia de Software - Uma abordagem profissional, Sétima Edição. Editora MCGrawHill: Porto Alegre, 2011
 SOMMERVILLE, Ian Engenharia de Software, Nona Edição. Editora Pearson Prentice Hall: São Paulo, 2011
+
+http://www.batebyte.pr.gov.br/Pagina/O-Processo-unificado-de-desenvolvimento-de-Software
