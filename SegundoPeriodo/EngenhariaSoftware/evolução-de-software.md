@@ -71,5 +71,38 @@ A maior parte dos esforços de manutenção é na parte perfectiva.
 
 ### Custos
 
-Geralmente maiores do que os de desenvolvimento, estes aumenta na medida em que o software é mantido. Softwares velhos podem ter altos custos de suporte.
+Geralmente maiores do que os de desenvolvimento, estes aumentam na medida em que o software é mantido. Softwares velhos podem ter altos custos de suporte.
+Custos podem reduzir por conta da familiaridade da equipe com o software.
 
+### Reengenharia de software
+
+A reestruturação ou reescrita de parte ou da totalidade de um sistema legado, sem alterar sua funcionalidade, podendo reduzir riscos e custos.
+
+>Reengenharia nada mais é do que reorganizar e modificar o software com o objetivo de torná-lo mais fácil de manter. 
+
+Atividades do processo:
+- Tradução do código fonte
+- Engenharia reversa
+  - Análise do programa para compreensão
+- Melhoria de estrutura de programa
+- Modularização
+- Reengenharia de dados
+
+#### Fatores de Custo
+
+- Qualidade do software em questão
+- Ferramentas de apoio para a execução
+- Extensão da conversão de dados
+- Disponibilidade de pessoal especializado
+  - Pode ser um problema em sistemas legados por conta das techs não mais utilizadas
+
+### Manutenção preventiva por refatoração
+
+> Processo de fazer melhorias em um programa para diminuir a degradação gradual resultante das mudanças (*OPDYKE* e *JOHNSON*, 1990).
+
+Ou seja, modificar um programa para melhorar sua estrutura, para reduzir sua complexidade ou para torná-lo mais compreensível. Ao refatorar, deve-se concentrar na melhoria dele e não acrescentar novas funcionalidades.
+
+Refatoração x Reengenharia
+
+- reengenharia ocorre depois que um sistema é mantido por algum tempo e os custos de manutenção são crescentes
+- refatoração é um processo contínuo de melhoria por meio do processo de evolução e desenvolvimento.
