@@ -1,9 +1,18 @@
 ## Resumo
 - Componentes de rede:
-  - *Host* é qualquer dispositivo conectado a uma rede que pode ser endereçado e enviar ou receber dados.
-  - *Peer-to-peer* (P2P) é um modelo de comunicação em rede em que os dispositivos conectados compartilham recursos diretamente entre si, sem a necessidade de um servidor central.
-  - "*End device*" é um dispositivo final em uma rede de computadores que pode enviar ou receber dados e executar aplicativos ou serviços.
-  - *Dispositivos intermediários* são componentes que fornecem serviços de rede para dispositivos finais, ajudando a encaminhar pacotes de dados e fornecer conectividade. Eles são essenciais para garantir a eficiência e segurança da rede.
+  - **Host** é qualquer dispositivo conectado a uma rede que pode ser endereçado e enviar ou receber dados.
+  - **Peer-to-peer** (P2P) é um modelo de comunicação em rede em que os dispositivos conectados compartilham recursos diretamente entre si, sem a necessidade de um servidor central.
+  - "**End device**" é um dispositivo final em uma rede de computadores que pode enviar ou receber dados e executar aplicativos ou serviços.
+  - **Dispositivos intermediários** são componentes que fornecem serviços de rede para dispositivos finais, ajudando a encaminhar pacotes de dados e fornecer conectividade. Eles são essenciais para garantir a eficiência e segurança da rede.
+  - **Network Media** (ou mídia de rede) são meios por onde as informações são transmitidas: cabos de cobre, fibra ótica, wireless, satélite, etc.
+
+- Representações de rede:
+  - NIC é um dispositivo de hardware que permite que um computador se conecte a uma rede.
+  - Uma porta física é uma abertura ou conector na NIC que permite conectar um cabo de rede. 
+  - Interface são portas especializadas em um dispositivo de rede que se conectam a redes individuais
+  - Diagramas de Topologia:
+    - Física -> Localização física dos dispositivos intermediários e a instalação dos cabos;
+    - Lógica -> Dispositivos, portas e o esquema de endereçamento da rede.
 
 ## Componentes de Rede
 
@@ -36,3 +45,40 @@ Esses dispositivos usam o endereço do dispositivo final de destino, em conjunto
 Cada tipo de dispositivo intermediário tem funções específicas em uma rede. Por exemplo, um roteador é usado para encaminhar pacotes de dados entre diferentes redes, enquanto um switch é usado para fornecer conectividade entre dispositivos na mesma rede. Já um firewall é usado para controlar o acesso à rede, restringindo o tráfego de entrada e saída com base em regras de segurança pré-definidas.
 
 Os dispositivos intermediários são importantes para garantir que os dispositivos finais possam se comunicar uns com os outros de forma eficiente e segura. Eles também ajudam a melhorar o desempenho da rede, reduzindo o tráfego desnecessário e melhorando a qualidade do serviço.
+
+### Network Media
+
+A mídia fornece o canal pelo qual a mensagem viaja da origem ao destino.
+
+As redes modernas utilizam alguns tipos de mídia para interconectar dispositivos, como:
+
+Cabo de cobre: é o meio mais comum e tradicional de transmissão de dados em redes. Os cabos de cobre são usados em várias tecnologias, como Ethernet, DSL e telefonia, e podem transmitir dados a velocidades de até vários Gbps.
+
+Fibra ótica: é um meio de transmissão de alta velocidade que usa cabos de vidro ou plástico para transmitir dados através de sinais de luz. A fibra ótica é usada em redes de longa distância e pode transmitir dados a velocidades de até vários terabits por segundo.
+
+Wireless (sem fio): é um meio de transmissão que usa ondas de rádio para enviar dados através do ar. As tecnologias sem fio mais comuns incluem Wi-Fi, Bluetooth e NFC. As redes sem fio são amplamente usadas em ambientes domésticos e empresariais.
+
+Satélite: é um meio de transmissão que usa satélites de comunicação para transmitir dados. As tecnologias de satélite são usadas em áreas onde as outras formas de transmissão não são práticas ou não estão disponíveis, como em áreas rurais ou remotas.
+
+A escolha do meio de transmissão depende de fatores como distância, velocidade, custo, disponibilidade, segurança e interferência. É importante avaliar cada um desses fatores para determinar qual meio de transmissão é mais adequado para uma determinada rede.
+
+## Representações de Rede
+
+Um diagrama fornece uma maneira fácil de entender como os dispositivos se conectam em uma rede grande. Esse tipo de “fotografia” de uma rede é conhecido como um diagrama de topologia. A capacidade de reconhecer as representações lógicas dos componentes físicos de rede é crucial para se permitir visualizar a organização e a operação de uma rede.
+
+Além dessas representações, é utilizada terminologia especializada para descrever como cada um desses dispositivos e mídias se conectam:
+
+NIC (Network Interface Card), ou placa de interface de rede em português, é um dispositivo de hardware que permite que um computador se conecte a uma rede. A NIC é geralmente instalada em um slot de expansão na placa-mãe do computador e possui uma ou mais portas físicas para conexão com cabos de rede.
+
+Uma porta física é uma abertura ou conector na NIC que permite conectar um cabo de rede. As portas físicas podem ter diferentes tipos de conectores, como RJ-45 para cabos Ethernet ou LC/SC para cabos de fibra ótica.
+
+Uma interface, por outro lado, é uma abstração de software que permite que o computador se comunique com a rede. Uma interface de rede é criada quando a NIC é instalada e configurada no sistema operacional do computador. Cada interface é identificada por um endereço MAC exclusivo e pode ser configurada com endereços IP, máscaras de sub-rede e outros parâmetros de rede.
+
+
+### Diagramas de Topologia
+
+- Física: Representam a estrutura física de uma rede, mostrando a localização dos dispositivos de rede, cabos, portas, hubs, switches e outros componentes físicos. Esse tipo de diagrama é útil para planejar e configurar a rede, bem como para identificar problemas de conectividade física.
+
+- Lógica: Representa a estrutura lógica da rede, mostrando como os dados fluem pela rede, incluindo o caminho que os pacotes de dados percorrem, os protocolos de rede usados e outras informações relacionadas à comunicação lógica. Esse tipo de diagrama é útil para entender o fluxo de tráfego de rede, bem como para identificar problemas de desempenho e segurança.
+
+
