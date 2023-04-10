@@ -1,4 +1,11 @@
 # As redes atualmente
+
+## Index
+- [Componentes de Rede](#componentes-de-rede)
+- [Representações de Rede](#representações-de-rede)
+- [Tipos comuns de Redes](#tipos-comuns-de-redes)
+- [Conexões com a Internet](#conexões-com-a-internet)
+
 ## Componentes de Rede
 ### Host
 
@@ -66,3 +73,70 @@ Uma interface, por outro lado, é uma abstração de software que permite que o 
 - Lógica: Representa a estrutura lógica da rede, mostrando como os dados fluem pela rede, incluindo o caminho que os pacotes de dados percorrem, os protocolos de rede usados e outras informações relacionadas à comunicação lógica. Esse tipo de diagrama é útil para entender o fluxo de tráfego de rede, bem como para identificar problemas de desempenho e segurança.
 
 
+## Tipos comuns de Redes
+
+Existem vários tipos de redes de computadores, cada uma com suas próprias características e finalidades. Alguns dos tipos de redes incluem:
+
+- LAN (Local Area Network): uma rede local que abrange uma área geográfica limitada, como um escritório, um edifício ou um campus universitário.
+
+- WAN (Wide Area Network): uma rede de longa distância que abrange uma área geográfica maior, como uma cidade, um país ou até mesmo vários continentes.
+
+- WLAN (Wireless Local Area Network): uma rede local que usa tecnologia sem fio para conectar dispositivos, permitindo que os usuários se conectem à rede sem a necessidade de cabos.
+
+- MAN (Metropolitan Area Network): uma rede de computadores que abrange uma área metropolitana, como uma cidade ou um subúrbio.
+
+- CAN (Campus Area Network): uma rede de computadores que conecta várias redes locais em um campus universitário, por exemplo.
+
+- VPN (Virtual Private Network): uma rede que permite que usuários remotos se conectem a uma rede privada através de uma conexão segura pela internet.
+
+- SAN (Storage Area Network): uma rede usada para conectar dispositivos de armazenamento, como discos rígidos e dispositivos de armazenamento em rede.
+
+- VoIP (Voice over IP) Network: uma rede que permite que usuários realizem chamadas de voz sobre uma rede IP, em vez de usar a rede telefônica tradicional.
+
+Esses são apenas alguns dos tipos mais comuns de redes de computadores. Cada tipo de rede tem suas próprias características e finalidades específicas, dependendo das necessidades do usuário ou organização. 
+A internet é a maior rede existente. Na verdade, o termo Internet significa uma “rede de redes”. É uma coleção de redes públicas e privadas interconectadas.
+
+Os dois tipos mais comuns de infraestruturas de rede são as redes locais (LANs) e as redes de longa distância (WANs). 
+
+### LANs e WANs
+
+
+#### Local Area Network (LAN)
+- LANs interconectam dispositivos finais em uma área limitada, como uma casa, uma escola, um edifício de escritórios ou um campus.
+- Uma LAN é geralmente administrada por uma única organização ou pessoa. O controle administrativo é imposto no nível da rede e governa as políticas de segurança e controle de acesso.
+- As LANs fornecem largura de banda de alta velocidade para dispositivos finais internos e dispositivos intermediários,
+
+#### Wide Area Network (WAN)
+- Interconectam as LANs em grandes áreas geográficas, como entre cidades, estados, províncias, países ou continentes.
+- São geralmente administradas por vários prestadores de serviço.
+- Geralmente fornecem links de velocidade mais lenta entre as LANs.
+
+### Intranets e Extranets
+
+Intranet é uma rede privada que é usada por uma organização para compartilhar informações internamente, como documentos, comunicações, recursos e aplicativos. Pode ser acessada apenas pelos funcionários ou membros da organização e geralmente é protegida por firewall para garantir a segurança e a privacidade dos dados.
+
+Já a Extranet é uma extensão da Intranet que permite que pessoas ou organizações externas se conectem a ela e acessem informações ou serviços limitados, com permissões controladas pela organização. A Extranet é protegida por sistemas de autenticação e criptografia de dados para garantir a segurança das informações compartilhadas entre a organização e os usuários externos.
+
+A principal diferença entre Intranet e Extranet é que a Intranet é uma rede interna privada, enquanto a Extranet é uma rede privada estendida a usuários ou organizações externas autorizadas. Ambas as redes são importantes para facilitar a comunicação e o compartilhamento de informações dentro e fora de uma organização, mantendo a segurança e a privacidade dos dados.
+
+
+## Conexões com a Internet
+### Tecnologia de Acesso à Internet
+
+Usuários domésticos, trabalhadores remotos e pequenos escritórios geralmente exigem uma conexão com um ISP (Internet Service Provider) para acessar a Internet. As opções de conexão variam muito entre os ISPs e as localizações geográficas. No entanto, as opções populares incluem banda larga a cabo, a banda larga via DSL (Digital Subscriber Line), WANs sem fio e serviços de telefonia móvel celular.
+
+As organizações geralmente precisam acessar outros sites corporativos e a Internet. Conexões rápidas são necessárias para dar suporte a serviços comerciais que incluem telefones IP, videoconferência e armazenamento em data center. As controladoras oferecem interconexões de nível empresarial. Os serviços populares de nível empresarial incluem DSL, linhas dedicadas e Metro Ethernet.
+
+Alguns dos tipos mais comuns, dentre diversas tecnologias de acesso à internet disponíveis são:
+
+- Linha discada (dial-up): utiliza a rede telefônica para conectar o computador à internet. É uma tecnologia de acesso lenta e obsoleta, que já foi muito utilizada no passado.
+
+- ADSL: utiliza a linha telefônica para transmitir dados de alta velocidade. É uma tecnologia comum em áreas urbanas e subúrbios.
+
+- Cabo: utiliza uma conexão de cabo coaxial para transmitir dados de alta velocidade. É uma tecnologia comum em áreas urbanas e subúrbios.
+
+- Fibra óptica: utiliza cabos de fibra óptica para transmitir dados em alta velocidade. É a tecnologia mais rápida disponível atualmente, mas sua disponibilidade é limitada.
+
+- Satélite: utiliza um satélite para transmitir dados de e para o computador. É uma tecnologia comum em áreas rurais e remotas.
+
+- Wireless: utiliza uma conexão sem fio, como Wi-Fi ou 4G, para se conectar à internet. É uma tecnologia comum em áreas urbanas e subúrbios.

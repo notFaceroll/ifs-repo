@@ -19,3 +19,17 @@
 - Diagramas de Topologia:
   - Física -> Localização física dos dispositivos intermediários e a instalação dos cabos;
   - Lógica -> Dispositivos, portas e o esquema de endereçamento da rede.
+
+
+### Tipos comuns de rede
+
+- Uma LAN é uma infraestrutura de rede que abrange uma pequena área geográfica.
+- Uma WAN é uma infraestrutura de rede que abrange uma ampla área geográfica. As WANs geralmente são gerenciadas por provedores de serviços (SPs) ou provedores de serviços de Internet (ISPs).
+
+### Intranets e Extranets
+
+- Intranet é uma rede privada que usada por uma organização para compartilhar informações internamente, podendo ser acessada somente pelos funcionários ou membros da organização.
+- Extranet é uma extensão da Intranet que permite que pessoas ou organizações externas se conectem a ela e acessem informações ou serviços limitados, com permissões controladas pela organização.
+
+### Conexões com a Internet
+
