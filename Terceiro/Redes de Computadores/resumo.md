@@ -52,7 +52,7 @@ Para corporações:
 Redes Covergentes:
 - São redes que unificam serviços de voz, vídeo e dados em uma única infraestrutura de rede baseada em IP. Essas redes oferecem maior eficiência, escalabilidade e flexibilidade, permitindo que as organizações reduzam custos e melhorem a colaboração.
 
-## Redes Confiáveis
+### Redes Confiáveis
 
 Características importantes para um arquiteto de software:
 
@@ -61,7 +61,7 @@ Características importantes para um arquiteto de software:
 - Qualidade de serviço (QoS): a capacidade da rede de priorizar o tráfego de dados com base em sua importância para a organização.
 - Segurança: a proteção da rede contra ameaças internas e externas, incluindo acesso não autorizado, malware, vírus e outras formas de ataque. 
 
-## Tendências das Redes
+### Tendências das Redes
 
 Algumas das várias tendências de rede que afetam organizações e consumidores:
 
