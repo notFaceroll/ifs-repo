@@ -50,7 +50,7 @@ As redes modernas utilizam alguns tipos de mídia para interconectar dispositivo
 
 - Fibra ótica: é um meio de transmissão de alta velocidade que usa cabos de vidro ou plástico para transmitir dados através de sinais de luz. A fibra ótica é usada em redes de longa distância e pode transmitir dados a velocidades de até vários terabits por segundo.
 
-W- ireless (sem fio): é um meio de transmissão que usa ondas de rádio para enviar dados através do ar. As tecnologias sem fio mais comuns incluem Wi-Fi, Bluetooth e NFC. As redes sem fio são amplamente usadas em ambientes domésticos e empresariais.
+- Wireless (sem fio): é um meio de transmissão que usa ondas de rádio para enviar dados através do ar. As tecnologias sem fio mais comuns incluem Wi-Fi, Bluetooth e NFC. As redes sem fio são amplamente usadas em ambientes domésticos e empresariais.
 
 - Satélite: é um meio de transmissão que usa satélites de comunicação para transmitir dados. As tecnologias de satélite são usadas em áreas onde as outras formas de transmissão não são práticas ou não estão disponíveis, como em áreas rurais ou remotas.
 
@@ -146,15 +146,15 @@ Alguns dos tipos mais comuns, dentre diversas tecnologias de acesso à internet 
 
 E para corporações:
 
-Linhas dedicadas: empresas podem contratar uma linha dedicada de alta velocidade para se conectar à internet. Essas linhas são geralmente caras, mas oferecem alta disponibilidade e garantia de banda larga.
+- Linhas dedicadas: empresas podem contratar uma linha dedicada de alta velocidade para se conectar à internet. Essas linhas são geralmente caras, mas oferecem alta disponibilidade e garantia de banda larga.
 
-MPLS: MPLS é uma tecnologia de rede que permite que empresas criem redes privadas virtuais (VPNs) para conectar seus escritórios, data centers e filiais à internet. Essa tecnologia oferece alta segurança e desempenho.
+- MPLS: MPLS é uma tecnologia de rede que permite que empresas criem redes privadas virtuais (VPNs) para conectar seus escritórios, data centers e filiais à internet. Essa tecnologia oferece alta segurança e desempenho.
 
-SD-WAN: Software-defined Wide Area Network (SD-WAN) é uma tecnologia de rede que permite que empresas conectem suas filiais, escritórios e data centers à internet usando conexões de internet públicas. Essa tecnologia oferece alta disponibilidade e desempenho, reduzindo custos em relação a linhas dedicadas.
+- SD-WAN: Software-defined Wide Area Network (SD-WAN) é uma tecnologia de rede que permite que empresas conectem suas filiais, escritórios e data centers à internet usando conexões de internet públicas. Essa tecnologia oferece alta disponibilidade e desempenho, reduzindo custos em relação a linhas dedicadas.
 
-Metro Ethernet: é uma tecnologia de rede de alta velocidade que usa Ethernet para fornecer serviços de conectividade entre edifícios em uma área metropolitana. É uma solução escalável e flexível, oferecendo largura de banda ajustável e entrega de pacotes confiável para empresas.
+- Metro Ethernet: é uma tecnologia de rede de alta velocidade que usa Ethernet para fornecer serviços de conectividade entre edifícios em uma área metropolitana. É uma solução escalável e flexível, oferecendo largura de banda ajustável e entrega de pacotes confiável para empresas.
 
-DSL de negócios: é um serviço de internet de alta velocidade projetado especificamente para empresas. O DSL de negócios oferece maior largura de banda e confiabilidade do que a linha discada tradicional, usando tecnologias de modem DSL para transmitir dados por meio da linha telefônica existente da empresa.
+- DSL de negócios: é um serviço de internet de alta velocidade projetado especificamente para empresas. O DSL de negócios oferece maior largura de banda e confiabilidade do que a linha discada tradicional, usando tecnologias de modem DSL para transmitir dados por meio da linha telefônica existente da empresa.
 
 ### Redes Covergentes
 
@@ -189,7 +189,7 @@ BYOD (Bring Your Own Device) é uma tendência crescente na qual os funcionário
 
 Equipes distribuídas geograficamente trabalham juntas em projetos por meio de ferramentas de comunicação e colaboração on-line, como videoconferência, compartilhamento de arquivos e mensagens instantâneas. Isso permite uma maior flexibilidade e produtividade para as equipes, mas também pode exigir uma infraestrutura de rede robusta e segura.
 
-0 Comunicação por vídeo:
+- Comunicação por vídeo:
 
 Tendência cada vez mais popular para comunicações empresariais, incluindo videoconferências, webinars, treinamentos on-line e apresentações virtuais. Isso pode melhorar a comunicação e colaboração em equipe, permitir a conexão remota com clientes e parceiros e reduzir custos com viagens e deslocamentos.
 
