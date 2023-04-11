@@ -1,6 +1,7 @@
 # As redes atualmente
 
 ## Index
+- [<- Página Inicial](../README.md)
 - [Componentes de Rede](#componentes-de-rede)
 - [Representações de Rede](#representações-de-rede)
 - [Tipos comuns de Redes](#tipos-comuns-de-redes)
@@ -43,13 +44,13 @@ A mídia fornece o canal pelo qual a mensagem viaja da origem ao destino.
 
 As redes modernas utilizam alguns tipos de mídia para interconectar dispositivos, como:
 
-Cabo de cobre: é o meio mais comum e tradicional de transmissão de dados em redes. Os cabos de cobre são usados em várias tecnologias, como Ethernet, DSL e telefonia, e podem transmitir dados a velocidades de até vários Gbps.
+- Cabo de cobre: é o meio mais comum e tradicional de transmissão de dados em redes. Os cabos de cobre são usados em várias tecnologias, como Ethernet, DSL e telefonia, e podem transmitir dados a velocidades de até vários Gbps.
 
-Fibra ótica: é um meio de transmissão de alta velocidade que usa cabos de vidro ou plástico para transmitir dados através de sinais de luz. A fibra ótica é usada em redes de longa distância e pode transmitir dados a velocidades de até vários terabits por segundo.
+- Fibra ótica: é um meio de transmissão de alta velocidade que usa cabos de vidro ou plástico para transmitir dados através de sinais de luz. A fibra ótica é usada em redes de longa distância e pode transmitir dados a velocidades de até vários terabits por segundo.
 
-Wireless (sem fio): é um meio de transmissão que usa ondas de rádio para enviar dados através do ar. As tecnologias sem fio mais comuns incluem Wi-Fi, Bluetooth e NFC. As redes sem fio são amplamente usadas em ambientes domésticos e empresariais.
+W- ireless (sem fio): é um meio de transmissão que usa ondas de rádio para enviar dados através do ar. As tecnologias sem fio mais comuns incluem Wi-Fi, Bluetooth e NFC. As redes sem fio são amplamente usadas em ambientes domésticos e empresariais.
 
-Satélite: é um meio de transmissão que usa satélites de comunicação para transmitir dados. As tecnologias de satélite são usadas em áreas onde as outras formas de transmissão não são práticas ou não estão disponíveis, como em áreas rurais ou remotas.
+- Satélite: é um meio de transmissão que usa satélites de comunicação para transmitir dados. As tecnologias de satélite são usadas em áreas onde as outras formas de transmissão não são práticas ou não estão disponíveis, como em áreas rurais ou remotas.
 
 A escolha do meio de transmissão depende de fatores como distância, velocidade, custo, disponibilidade, segurança e interferência. É importante avaliar cada um desses fatores para determinar qual meio de transmissão é mais adequado para uma determinada rede.
 
@@ -59,11 +60,11 @@ Um diagrama fornece uma maneira fácil de entender como os dispositivos se conec
 
 Além dessas representações, é utilizada terminologia especializada para descrever como cada um desses dispositivos e mídias se conectam:
 
-NIC (Network Interface Card), ou placa de interface de rede em português, é um dispositivo de hardware que permite que um computador se conecte a uma rede. A NIC é geralmente instalada em um slot de expansão na placa-mãe do computador e possui uma ou mais portas físicas para conexão com cabos de rede.
+- NIC (Network Interface Card), ou placa de interface de rede em português, é um dispositivo de hardware que permite que um computador se conecte a uma rede. A NIC é geralmente instalada em um slot de expansão na placa-mãe do computador e possui uma ou mais portas físicas para conexão com cabos de rede.
 
-Uma porta física é uma abertura ou conector na NIC que permite conectar um cabo de rede. As portas físicas podem ter diferentes tipos de conectores, como RJ-45 para cabos Ethernet ou LC/SC para cabos de fibra ótica.
+- Uma porta física é uma abertura ou conector na NIC que permite conectar um cabo de rede. As portas físicas podem ter diferentes tipos de conectores, como RJ-45 para cabos Ethernet ou LC/SC para cabos de fibra ótica.
 
-Uma interface, por outro lado, é uma abstração de software que permite que o computador se comunique com a rede. Uma interface de rede é criada quando a NIC é instalada e configurada no sistema operacional do computador. Cada interface é identificada por um endereço MAC exclusivo e pode ser configurada com endereços IP, máscaras de sub-rede e outros parâmetros de rede.
+- Uma interface, por outro lado, é uma abstração de software que permite que o computador se comunique com a rede. Uma interface de rede é criada quando a NIC é instalada e configurada no sistema operacional do computador. Cada interface é identificada por um endereço MAC exclusivo e pode ser configurada com endereços IP, máscaras de sub-rede e outros parâmetros de rede.
 
 
 ### Diagramas de Topologia
