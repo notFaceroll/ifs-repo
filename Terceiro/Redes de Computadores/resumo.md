@@ -52,7 +52,7 @@ Para corporações:
 Redes Covergentes:
 - São redes que unificam serviços de voz, vídeo e dados em uma única infraestrutura de rede baseada em IP. Essas redes oferecem maior eficiência, escalabilidade e flexibilidade, permitindo que as organizações reduzam custos e melhorem a colaboração.
 
-### Redes Confiáveis
+## Redes Confiáveis
 
 Características importantes para um arquiteto de software:
 
