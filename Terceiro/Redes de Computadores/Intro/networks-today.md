@@ -6,6 +6,8 @@
 - [Representações de Rede](#representações-de-rede)
 - [Tipos comuns de Redes](#tipos-comuns-de-redes)
 - [Conexões com a Internet](#conexões-com-a-internet)
+- [Redes Confiáveis](#redes-confiáveis)
+- [Tendências das Redes](#tendências-das-redes)
 
 ## Componentes de Rede
 ### Host
@@ -141,3 +143,68 @@ Alguns dos tipos mais comuns, dentre diversas tecnologias de acesso à internet 
 - Satélite: utiliza um satélite para transmitir dados de e para o computador. É uma tecnologia comum em áreas rurais e remotas.
 
 - Wireless: utiliza uma conexão sem fio, como Wi-Fi ou 4G, para se conectar à internet. É uma tecnologia comum em áreas urbanas e subúrbios.
+
+E para corporações:
+
+Linhas dedicadas: empresas podem contratar uma linha dedicada de alta velocidade para se conectar à internet. Essas linhas são geralmente caras, mas oferecem alta disponibilidade e garantia de banda larga.
+
+MPLS: MPLS é uma tecnologia de rede que permite que empresas criem redes privadas virtuais (VPNs) para conectar seus escritórios, data centers e filiais à internet. Essa tecnologia oferece alta segurança e desempenho.
+
+SD-WAN: Software-defined Wide Area Network (SD-WAN) é uma tecnologia de rede que permite que empresas conectem suas filiais, escritórios e data centers à internet usando conexões de internet públicas. Essa tecnologia oferece alta disponibilidade e desempenho, reduzindo custos em relação a linhas dedicadas.
+
+Metro Ethernet: é uma tecnologia de rede de alta velocidade que usa Ethernet para fornecer serviços de conectividade entre edifícios em uma área metropolitana. É uma solução escalável e flexível, oferecendo largura de banda ajustável e entrega de pacotes confiável para empresas.
+
+DSL de negócios: é um serviço de internet de alta velocidade projetado especificamente para empresas. O DSL de negócios oferece maior largura de banda e confiabilidade do que a linha discada tradicional, usando tecnologias de modem DSL para transmitir dados por meio da linha telefônica existente da empresa.
+
+### Redes Covergentes
+
+Redes convergentes são redes que unificam serviços de voz, vídeo e dados em uma única infraestrutura de rede. Essas redes são projetadas para fornecer um ambiente de rede mais eficiente, escalável e flexível, permitindo que as organizações reduzam custos, simplifiquem a manutenção e melhorem a colaboração.
+
+As redes convergentes geralmente utilizam o Protocolo de Internet (IP) como tecnologia central, permitindo que os dados sejam transmitidos de forma mais rápida e eficiente. Além disso, as redes convergentes podem ser usadas para suportar tecnologias de comunicação unificada, como telefonia IP, videoconferência e mensagens instantâneas, proporcionando uma experiência de comunicação mais integrada e eficiente para os usuários.
+
+
+## Redes Confiáveis
+
+### Arquitetura de redes
+
+Quatro características de extrema importância na arquitetura de software podem ser reconhecidas como:
+
+- Tolerância a falhas: a capacidade da rede de continuar operando mesmo quando ocorrem falhas em algum dos seus componentes. Isso inclui redundância, balanceamento de carga e failover para garantir que a rede continue a funcionar mesmo em caso de problemas.
+
+- Escalabilidade: a capacidade da rede de suportar um aumento no número de usuários, dispositivos e aplicativos sem comprometer o desempenho ou a segurança da rede. Isso pode incluir a adição de hardware e software, como servidores, roteadores e switches, bem como o aumento da largura de banda disponível.
+
+- Qualidade de serviço (QoS): a capacidade da rede de priorizar o tráfego de dados com base em sua importância para a organização. Isso pode incluir a priorização de voz e vídeo sobre tráfego de dados menos críticos, para garantir que essas aplicações tenham desempenho adequado.
+
+- Segurança: a proteção da rede contra ameaças internas e externas, incluindo acesso não autorizado, malware, vírus e outras formas de ataque. Isso pode incluir a autenticação, criptografia e firewalls, bem como políticas de segurança e treinamento de usuários.
+
+## Tendências das Redes
+
+À medida que novas tecnologias e dispositivos do usuário final chegam ao mercado, as empresas e os consumidores devem continuar se ajustando a esse ambiente em constante mudança. Existem várias tendências de rede que afetam organizações e consumidores:
+
+- BYOD (Bring Your Own Device):
+
+BYOD (Bring Your Own Device) é uma tendência crescente na qual os funcionários trazem seus próprios dispositivos, como laptops, smartphones e tablets, para o ambiente de trabalho e os usam para acessar dados corporativos e aplicativos. Isso pode melhorar a produtividade e reduzir os custos de hardware, mas também pode criar desafios de segurança, gerenciamento e compatibilidade.
+
+- Colaboração on-line:
+
+Equipes distribuídas geograficamente trabalham juntas em projetos por meio de ferramentas de comunicação e colaboração on-line, como videoconferência, compartilhamento de arquivos e mensagens instantâneas. Isso permite uma maior flexibilidade e produtividade para as equipes, mas também pode exigir uma infraestrutura de rede robusta e segura.
+
+0 Comunicação por vídeo:
+
+Tendência cada vez mais popular para comunicações empresariais, incluindo videoconferências, webinars, treinamentos on-line e apresentações virtuais. Isso pode melhorar a comunicação e colaboração em equipe, permitir a conexão remota com clientes e parceiros e reduzir custos com viagens e deslocamentos.
+
+- Computação em nuvem:
+
+Os recursos de hardware e software são fornecidos como serviços através da Internet, permitindo que as empresas acessem recursos sob demanda e paguem apenas pelo que usam. Isso pode reduzir custos de infraestrutura, melhorar a flexibilidade e a escalabilidade da empresa, e permitir que as equipes acessem e colaborem em dados e aplicativos de qualquer lugar com acesso à internet. No entanto, a computação em nuvem também pode trazer desafios de segurança e privacidade de dados, além de depender da qualidade e disponibilidade da conexão de internet.
+
+### IoT (Internt of Things)
+
+Considerada uma "tendência caseira", a tecnologia de casa inteligente se integra aos aparelhos diários, que podem ser conectados a outros dispositivos para tornar os aparelhos mais “inteligentes” ou automatizados, isso pode incluir termostatos inteligentes, luzes, eletrodomésticos, sistemas de segurança e muito mais.
+
+### Rede Powerline
+
+A rede "powerline" é uma tecnologia que permite que a rede doméstica utilize a rede elétrica existente para transmitir dados. Em outras palavras, em vez de usar cabos de rede ou Wi-Fi, a conexão de internet é transmitida pela rede elétrica da casa. Isso pode ser útil em situações em que o sinal Wi-Fi é fraco ou inexistente em certas partes da casa.
+
+### Banda larga sem fio
+
+A banda larga sem fio é uma tendência em que as redes sem fio são usadas para fornecer conexões de internet mais rápidas e confiáveis ​​para residências. Isso pode incluir tecnologias como 5G, Wi-Fi 6 e Wi-Fi mesh, que oferecem velocidades de download e upload mais rápidas, menor latência e melhor cobertura em comparação com tecnologias sem fio anteriores.

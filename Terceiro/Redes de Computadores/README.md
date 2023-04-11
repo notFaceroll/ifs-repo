@@ -1,4 +1,4 @@
-# Redes de Computadores
+# Introdução às Redes de Computadores
 
 ## **Sumário**
 - [Resumão](./resumo.md)
