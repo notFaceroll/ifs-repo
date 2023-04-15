@@ -4,7 +4,7 @@
 - [Resumão](./resumo.md)
 - [Introdução - As redes atualmente](./Intro/networks-today.md)
 - Switch Básico e Configuração do End Device
-- Protocolos e Modelos
+- [Protocolos e Modelos](./Protocolos/protocolos.md)
 - Camada Física
 - Sistemas Numéricos
 - Camada de enlace de dados
