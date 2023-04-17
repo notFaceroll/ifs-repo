@@ -1,12 +1,11 @@
-# Introdução às Redes de Computadores
+# Breve introdução às Redes de Computadores
 
 ## **Sumário**
-- [Resumão](./resumo.md)
-- [Introdução - As redes atualmente](./Intro/networks-today.md)
-- Switch Básico e Configuração do End Device
+<!-- - Switch Básico e Configuração do End Device -->
+<!-- - Sistemas Numéricos -->
+- [Contextualização](./Intro/networks-today.md)
 - [Protocolos e Modelos](./Protocolos/protocolos.md)
 - Camada Física
-- Sistemas Numéricos
 - Camada de enlace de dados
 - Switching Ethernet
 - Camada de Rede

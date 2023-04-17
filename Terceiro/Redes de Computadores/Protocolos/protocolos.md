@@ -2,7 +2,7 @@
 
 ## Fundamentos
 
-- **Fonte da Mensagem (remetente)** - As fontes da mensagem são pessoas ou dispositivos eletrônicos que precisam enviar uma mensagem para outras pessoas ou dispositivos.
+- **Fonte da mensagem (remetente)** - As fontes da mensagem são pessoas ou dispositivos eletrônicos que precisam enviar uma mensagem para outras pessoas ou dispositivos.
 - **Destino da mensagem (destinatário)** - O destino recebe a mensagem e a interpreta.
 - **Canal** - Consiste na mídia que fornece o caminho pelo qual a mensagem viaja da origem ao destino.
 
@@ -17,7 +17,7 @@
 - **Codificação de mensagens**: Forma como os bits são organizados e representados nas mensagens transmitidas entre dispositivos de rede. 
 - **Formatação e encapsulamento de mensagens**: Refere-se à estrutura e organização da mensagem, incluindo o cabeçalho, dados e informações de controle necessárias para que a mensagem seja transmitida corretamente na rede.
 - **Tamanho da mensagem**: Importante para garantir que as mensagens possam ser transmitidas de forma eficiente e sem erros na rede.
-- **Tempo da mensagem**: velocidade de transmissão da mensagem na rede
+- **Tempo da mensagem**: Velocidade de transmissão da mensagem na rede
 - **As opções de envio de mensagem** são importantes para permitir diferentes tipos de comunicação e garantir a confiabilidade dos dados: 
 
   - O **Unicast** é um tipo de comunicação ponto a ponto, em que uma mensagem é enviada de um único emissor para um único receptor. É o método mais comum de comunicação em redes.
@@ -207,3 +207,47 @@ Outras organizações de padrões têm responsabilidades em promover e criar os 
 - Aliança das Indústrias Eletrônicas (EIA);
 - Associação da Indústria de Telecomunicações (TIA);
 - Setor de Normalização das Telecomunicações da União Internacional de Telecomunicações (ITU-T);
+
+## Modelos de Referência
+
+### Porquê usar um modelo de camadas
+
+O modelo em camadas é usado para modularizar as operações de uma rede em camadas gerenciáveis.
+
+- Auxiliar no projeto de protocolos porque os protocolos que operam em uma camada específica definiram as informações sobre as quais atuam e uma interface definida para as camadas acima e abaixo
+- Fomentar a concorrência porque produtos de diferentes fornecedores podem trabalhar juntos
+- Impedir que alterações de tecnologia ou capacidade em uma camada afetem outras camadas acima e abaixo
+- Fornecer uma linguagem comum para descrever funções e capacidades de rede
+
+Existem dois modelos em camadas que são usados para descrever operações de rede:
+
+- Modelo de referência OSI (Open System Interconnection)
+- Modelo de referência TCP / IP
+
+### Modelo OSI
+
+O modelo de referência OSI (Open Systems Interconnection) possui 7 camadas.
+As camadas do modelo OSI são, de baixo para cima:
+
+- Camada Física (Physical Layer)
+- Camada de Enlace de Dados (Data Link Layer)
+- Camada de Rede (Network Layer)
+- Camada de Transporte (Transport Layer)
+- Camada de Sessão (Session Layer)
+- Camada de Apresentação (Presentation Layer)
+- Camada de Aplicação (Application Layer)
+
+### Modelo TCP/IP
+
+Já as camadas do modelo TCP/IP são, de baixo para cima:
+
+- Camada de Acesso à Rede (Network Access Layer)
+- Camada de Internet (Internet Layer)
+- Camada de Transporte (Transport Layer)
+- Camada de Aplicação (Application Layer)
+
+>Vale ressaltar que as camadas dos modelos de referência são conceitos teóricos utilizados para facilitar a compreensão e a organização das funcionalidades dos protocolos de rede, mas nem todos os protocolos se encaixam perfeitamente nessas camadas e existem modelos de referência alternativos.
+
+As definições do padrão e dos protocolos TCP / IP são discutidas em um fórum público e definidas em um conjunto disponível ao público de RFCs da IETF.
+
+## Encapsulamento de dados
