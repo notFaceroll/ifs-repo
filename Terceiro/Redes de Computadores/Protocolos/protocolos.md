@@ -251,3 +251,19 @@ Já as camadas do modelo TCP/IP são, de baixo para cima:
 As definições do padrão e dos protocolos TCP / IP são discutidas em um fórum público e definidas em um conjunto disponível ao público de RFCs da IETF.
 
 ## Encapsulamento de dados
+
+### Segmentação e Sequenciamento
+
+**Segmentação** de dados é o processo de dividir uma mensagem grande em segmentos menores antes de serem transmitidos através da rede. Isso é feito para que a rede possa lidar com a mensagem de forma mais eficiente e para garantir que todos os segmentos cheguem ao destino.
+
+Já o **sequenciamento** de dados é a atribuição de um número de sequência único a cada segmento de dados que está sendo transmitido. Isso permite que os segmentos sejam reordenados corretamente pelo receptor quando chegam fora de ordem, garantindo que a mensagem original seja reconstituída corretamente.
+
+
+### Unidade de Dados de Protocolo
+
+ >PDU é a sigla para "Protocol Data Unit", ou "Unidade de Dados do Protocolo". É um termo usado para referenciar a unidade de informação que é transmitida entre os dispositivos de rede.
+
+ O PDU é formado pelos dados que foram gerados na camada superior do modelo de referência em uso (como a camada de aplicação, por exemplo) acrescidos de informações de controle adicionadas pelas camadas inferiores do modelo (como a camada de transporte, por exemplo).
+
+A forma e o conteúdo específicos do PDU variam de acordo com o protocolo utilizado e com as camadas do modelo de referência em que ele é gerado. Por exemplo, o PDU da camada de transporte no modelo TCP/IP é chamado de segmento, enquanto o PDU da camada de enlace no modelo OSI é chamado de quadro.
+
