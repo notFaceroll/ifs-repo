@@ -267,3 +267,36 @@ Já o **sequenciamento** de dados é a atribuição de um número de sequência 
 
 A forma e o conteúdo específicos do PDU variam de acordo com o protocolo utilizado e com as camadas do modelo de referência em que ele é gerado. Por exemplo, o PDU da camada de transporte no modelo TCP/IP é chamado de segmento, enquanto o PDU da camada de enlace no modelo OSI é chamado de quadro.
 
+## Acesso a dados
+
+### Endereços
+
+>Os endereços na camada de rede são usados para encaminhar pacotes de dados pela rede, enquanto os endereços na camada de enlace de dados são usados para controlar o acesso ao meio físico de transmissão.
+
+- Um endereço IP é o endereço lógico da camada de rede (camada 3), usado para entregar o pacote IP da origem original ao destino final;
+
+O pacote IP contém dois endereços IP:
+
+- Endereço IP de origem
+- Endereço IP de destino 
+
+Um endereço IP contém duas partes:
+
+- Parte da rede (IPv4) ou Prefixo (IPv6)
+- Parte do host (IPv4) ou ID da interface (IPv6)
+
+Quando o remetente e o destinatário do pacote IP estiverem na mesma rede, o quadro de enlace de dados será enviado diretamente para o dispositivo receptor. Todos os pacotes para destinos em redes remotas são enviados para o gateway padrão.
+
+
+- O endereço físico da Camada 2 do link de dados tem uma função diferente. A finalidade do endereço de enlace de dados é fornecer o quadro de enlace de dados de uma interface de rede para outra na mesma rede.
+
+Antes que um pacote IP possa ser enviado por uma rede com ou sem fio, ele deve ser encapsulado em um quadro de enlace de dados, para que possa ser transmitido pela mídia física.
+
+Conforme o pacote IP viaja do host para o roteador, de roteador para roteador e de roteador para host, em cada ponto ao longo do caminho, o pacote IP é encapsulado em um novo quadro de enlace de dados. Cada quadro de enlace de dados contém o endereço de enlace de dados origem da placa NIC que envia o quadro, e o endereço de enlace de dados destino da placa NIC que recebe o quadro.
+
+A Camada 2, o protocolo de enlace de dados só é usado para entregar o pacote de NIC para NIC na mesma rede. O roteador remove as informações da Camada 2 conforme é recebido na NIC e adiciona novas informações de enlace de dados antes de encaminhar a NIC de saída em seu caminho para o destino final.
+
+O pacote IP é encapsulado em um quadro de link de dados que contém:
+- O endereço físico da NIC que está enviando o quadro de link de dados.
+- O endereço físico da NIC que está recebendo o quadro de link de dados. Esse endereço é o roteador do próximo salto ou o endereço do dispositivo de destino final.
+
