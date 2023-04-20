@@ -5,7 +5,7 @@
 <!-- - Sistemas Numéricos -->
 - [Contextualização](./Intro/networks-today.md)
 - [Protocolos e Modelos](./Protocolos/protocolos.md)
-- Camada Física
+- [Camada Física](./Camada%20F%C3%ADsica/camada-fisica.md)
 - Camada de enlace de dados
 - Switching Ethernet
 - Camada de Rede
