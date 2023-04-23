@@ -6,7 +6,7 @@
 - [Contextualização](./Intro/networks-today.md)
 - [Protocolos e Modelos](./Protocolos/protocolos.md)
 - [Camada Física](./Camada%20F%C3%ADsica/camada-fisica.md)
-- Camada de enlace de dados
+- [Camada de enlace de dados](./Camada%20de%20Enlace%20de%20Dados/data-link-layer.md)
 - Switching Ethernet
 - Camada de Rede
 - Resolução de Endereços
